@@ -1,0 +1,1 @@
+# azure_task_10_deploy_vm_to_availability_zone
