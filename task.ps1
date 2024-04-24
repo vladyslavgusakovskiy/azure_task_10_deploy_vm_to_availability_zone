@@ -35,7 +35,7 @@ New-AzSshKey -Name $sshKeyName -ResourceGroupName $resourceGroupName -PublicKey 
 
 New-AzVm `
 -ResourceGroupName $resourceGroupName `
--Name "$vmName-$zone" `
+-Name $vmName `
 -Location $location `
 -image $vmImage `
 -size $vmSize `

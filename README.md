@@ -72,6 +72,8 @@ In this task, you will need to write and run a Powershell script, which deploys 
 
     - VMs should use image with friendly name `Ubuntu2204` and size `Standard_B1s`.
 
+    - Note that in this task you are not required to deploy a pubclic IP resource for the VMs. 
+
 2. When script is ready, run it to deploy resources to your subcription. 
 
 3. Run artifacts generation script `scripts/generate-artifacts.ps1`.
