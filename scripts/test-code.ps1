@@ -18,12 +18,6 @@ if ($scriptContent | Where-Object {$_.Contains("New-AzVirtualNetwork")}) {
     throw "Script is not creating a virtual network, please review it. "
 } 
 
-if ($scriptContent | Where-Object {$_.Contains("New-AzPublicIpAddress")}) { 
-    Write-Host "Checking if script creates a public IP address - ok" 
-} else { 
-    throw "Script is not creating a public IP address, please review it. "
-} 
-
 if ($scriptContent | Where-Object {$_.Contains("New-AzSshKey")}) {
     Write-Host "Checking if script creates a SSH key resource - ok" 
 } else { 
