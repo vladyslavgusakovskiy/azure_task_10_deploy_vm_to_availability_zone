@@ -7,7 +7,7 @@ $vnetAddressPrefix = "10.0.0.0/16"
 $subnetAddressPrefix = "10.0.0.0/24"
 $sshKeyName = "linuxboxsshkey"
 $sshKeyPublicKey = Get-Content "~/.ssh/id_rsa.pub"
-$vmImage = "Ubuntu2204"
+$vmImage = "UbuntuLTS"
 $vmSize = "Standard_B1s"
 
 Write-Host "Creating a resource group $resourceGroupName ..."
